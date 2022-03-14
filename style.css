@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    /* background-color: rgb(184, 218, 184) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calci {
+    height: 80%;
+    width: 20%;
+    border-style: groove;
+    text-align: center;
+}
+
+.screen {
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+table {
+    height: 85%;
+    width: 100%;
+    cursor: pointer;
+    background: white;
+}
+
+td {
+    background: white;
+    border-radius: 15%;
+    font-size: 20px;
+    box-shadow: -1px -1px 1px 0px rgba(88, 88, 88, 0.425), 
+                1px 1px 1px 0px rgba(88, 88, 88, 0.425);
+}       
+
+.clear {
+    background: #33cc33;
+    box-shadow: -1px -1px 1px 0px #33cc33, 
+                1px 1px 1px 0px #33cc33;
+}
+
+.delete {
+    background: rgb(236, 6, 148);
+    box-shadow: -1px -1px 1px 0px rgb(236, 6, 148), 
+                1px 1px 1px 0px rgb(236, 6, 148);
+}
+
+.equal {
+    background: #00ace6;
+    box-shadow: -1px -1px 1px 0px  #00ace6, 
+    1px 1px 1px 0px  #00ace6;
+}
+
+.fa-delete-left, .fa-divide, .fa-xmark, .fa-minus{
+    pointer-events: none;
+}
+
+.button{
+    transform: rgb(151, 148, 148);
+    transition-property: backgraound;
+
+
+}
